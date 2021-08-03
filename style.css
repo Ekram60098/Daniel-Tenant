@@ -35,8 +35,12 @@ nav .logo a {
   color: #fff;
   text-decoration: none;
   text-transform: capitalize;
+  transition: color 0.3s ease-in-out;
 }
-
+.nav-links li a:hover,
+.nav-links li a.active {
+  color: #ada9a6;
+}
 /* end nav */
 
 main {
