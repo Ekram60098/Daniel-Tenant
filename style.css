@@ -1,8 +1,13 @@
 nav {
 }
 
-main {
+section {
+    margin: auto;
+    width: 80%;
 }
-
+:root{
+    --brown_color: brown;
+    --font_family: Arial;
+}
 footer {
 }
