@@ -4,9 +4,6 @@ body {
 }
 /* start nav */
 nav {
-<<<<<<< HEAD
-
-=======
   box-sizing: border-box;
   background-color: #472915;
   display: flex;
@@ -46,18 +43,8 @@ nav .logo a {
 .nav-links li a:hover,
 .nav-links li a.active {
   color: #ada9a6;
->>>>>>> 2d7433b91dd2ec7f60eef6844a00ded75f2fc431
 }
 /* end nav */
-
-main {
-
-}
-
-footer {
-
-}
-
 #background_photo{
     background-image: url("https://www.misterprod.com/wp-content/uploads/2017/09/ornaments-texture-brown-background.jpg");
     background-attachment: fixed;
@@ -91,9 +78,6 @@ justify-content:space-between;
     padding-top: 50px;
     font-size: 20px;
 }
-
-
-
 .research-intersts{
     margin-top: 300px;
     color: rgba(77, 6, 6, 0.932);
@@ -112,9 +96,6 @@ justify-content:space-between;
 .research-paragraph{
     width:50%;
 }
-
-
-
 .Publications{
     margin-top: 300px;
     color: rgba(77, 6, 6, 0.932);
