@@ -1,8 +1,104 @@
 nav {
+
 }
 
 main {
+
 }
 
 footer {
+
 }
+
+#background_photo{
+    background-image: url("https://www.misterprod.com/wp-content/uploads/2017/09/ornaments-texture-brown-background.jpg");
+    background-attachment: fixed;
+    height: 50vh;
+}
+.title{
+   
+    /* border:yellow 1px solid; */
+    width: 40%;
+}
+.title-with-picture{
+margin: -200px 100px;
+display: flex;
+justify-content:space-between;
+}
+.title h1, h3{
+    /* border:1px solid white; */
+    color:white;
+    font-size: 20px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+.title h1{
+    font-size: 40px;
+}
+.title img{
+    /* border:1px red solid; */
+    padding: 10px;
+}
+.title p{
+    color: rgba(77, 6, 6, 0.932);
+    padding-top: 50px;
+    font-size: 20px;
+}
+
+
+
+.research-intersts{
+    margin-top: 300px;
+    color: rgba(77, 6, 6, 0.932);
+    padding:150px;
+    display: flex;
+    font-size: 20px;
+    justify-content:space-around;
+    background-color: rgb(241, 233, 227);
+}
+.research-intersts h1 {
+    font-family:sans-serif;
+    font-size: 50px;
+    width:500px;
+    margin-top:-20px;
+}
+.research-paragraph{
+    width:50%;
+}
+
+
+
+.Publications{
+    margin-top: 300px;
+    color: rgba(77, 6, 6, 0.932);
+    padding:150px;
+    display: flex;
+    justify-content:space-around;
+    font-size: 20px;
+}
+.Publications h1 {
+    font-family:sans-serif;
+    font-size: 50px;
+    width:500px;
+    margin-top:-20px;
+}
+.Publications-paragraph{
+    width:44%;
+}
+
+.Publications-paragraph p{
+    padding: 20px 0px;
+}
+.button:link, .button:visited {
+    background-color: transparent;
+    color: black;
+    border: 2px solid rgba(77, 6, 6, 0.932);
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+  }
+  .button:hover, a:active {
+    background-color: rgba(77, 6, 6, 0.932);
+    color: white;
+  }
+
