@@ -1,6 +1,54 @@
-nav {
-
+body {
+  margin: 0;
+  height: 1000px;
 }
+/* start nav */
+nav {
+<<<<<<< HEAD
+
+=======
+  box-sizing: border-box;
+  background-color: #472915;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 60px;
+  font-family: Arial, Helvetica, sans-serif;
+  position: fixed;
+  width: 100%;
+}
+nav .logo a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 24px;
+}
+.nav-links {
+  flex-grow: 1;
+  display: flex;
+  justify-content: flex-end;
+  padding: 0;
+  margin: 0;
+}
+.nav-links li {
+  list-style: none;
+}
+.nav-links li:not(:last-of-type) {
+  margin-right: 100px;
+}
+.nav-links li a {
+  list-style: none;
+  display: block;
+  color: #fff;
+  text-decoration: none;
+  text-transform: capitalize;
+  transition: color 0.3s ease-in-out;
+}
+.nav-links li a:hover,
+.nav-links li a.active {
+  color: #ada9a6;
+>>>>>>> 2d7433b91dd2ec7f60eef6844a00ded75f2fc431
+}
+/* end nav */
 
 main {
 
