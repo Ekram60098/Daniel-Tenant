@@ -129,5 +129,6 @@ justify-content:space-between;
   .button:hover, a:active {
     background-color: rgba(77, 6, 6, 0.932);
     color: white;
+    transition: all 0.4s ease-in-out;
   }
 
