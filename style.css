@@ -163,7 +163,7 @@ nav .logo a {
 /* end awards */
 /* end about section */
 #background_photo {
-  background-image: url('https://www.misterprod.com/wp-content/uploads/2017/09/ornaments-texture-brown-background.jpg');
+  background-image: url("https://www.misterprod.com/wp-content/uploads/2017/09/ornaments-texture-brown-background.jpg");
   background-attachment: fixed;
   height: 50vh;
 }
