@@ -164,7 +164,7 @@ nav .logo a {
 /* end awards */
 /* end about section */
 #background_photo {
-  background-image: url('https://www.misterprod.com/wp-content/uploads/2017/09/ornaments-texture-brown-background.jpg');
+  background-image: url("https://www.misterprod.com/wp-content/uploads/2017/09/ornaments-texture-brown-background.jpg");
   background-attachment: fixed;
   height: 50vh;
 }
@@ -250,4 +250,92 @@ a:active {
   background-color: rgba(77, 6, 6, 0.932);
   color: white;
   transition: all 0.4s ease-in-out;
+}
+/* start footer */
+footer {
+  padding: 80px 0;
+  background-color: #472915;
+}
+.main-content {
+  width: 1100px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+.footer-contact {
+  color: #fff;
+}
+.footer-contact h1 {
+  font-size: 50px;
+  font-weight: normal;
+  font-family: sans-serif;
+  margin-top: 0;
+}
+.footer-contact p {
+  line-height: 1.7;
+}
+.footer-contact .linkedin {
+  margin-right: 15px;
+}
+.footer-form {
+  justify-self: self-end;
+  align-self: self-end;
+}
+.inputs {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 5px 30px;
+  margin-bottom: 20px;
+}
+.inputs div {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 10px;
+}
+form label {
+  color: #fff;
+}
+.footer-form input {
+  background: transparent;
+  border: 0;
+  border-bottom: 1px solid #fff;
+}
+.footer-form .asterisk {
+  font-size: 8px;
+}
+.footer-form input,
+.footer-form textarea {
+  outline: 0;
+  color: #fff;
+  font-size: 16px;
+  margin-top: 10px;
+}
+.footer-form textarea {
+  background: transparent;
+  border: 0;
+  border-bottom: 1px solid #fff;
+  width: 100%;
+  height: 50px;
+}
+form .submit-btn {
+  color: #fff;
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #fff;
+  margin-top: 20px;
+  cursor: pointer;
+  text-transform: capitalize;
+  font-size: 18px;
+  transition: all 0.5s ease-in-out;
+}
+form .submit-btn:hover {
+  background-color: #fff;
+  color: #472915;
+}
+/* end footer */
+.copyright {
+  background-color: #fff;
+  color: #60371b;
+  text-align: center;
+  padding: 15px 0;
 }
