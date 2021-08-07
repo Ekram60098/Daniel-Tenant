@@ -1,6 +1,15 @@
 body {
   margin: 0;
 }
+section {
+  display: none !important;
+}
+section.show-section {
+  display: block !important;
+}
+.section-padding {
+  padding: 100px 0;
+}
 /* start nav */
 nav {
   box-sizing: border-box;
