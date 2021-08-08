@@ -162,6 +162,21 @@ nav .logo a {
 }
 /* end awards */
 /* end about section */
+/* start publications section  */
+.publications .selected {
+  width: 20%;
+  font-size: 48px;
+}
+.publications .journal {
+  width: 50%;
+  font-size: 25px;
+}
+.publications .experience {
+  display: flex;
+  justify-content: space-around;
+  color: rgba(66, 14, 14, 0.918);
+}
+/* end publications section  */
 #background_photo {
   background-image: url("https://www.misterprod.com/wp-content/uploads/2017/09/ornaments-texture-brown-background.jpg");
   background-attachment: fixed;
